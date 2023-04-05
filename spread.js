@@ -16,5 +16,5 @@ var person5 = {
     age: 5,
     twitter: "@tom"
 };
-var copyOfPerson = __assign(__assign({}, person), { gender: "Male" });
+var copyOfPerson = __assign(__assign({}, person5), { gender: "Male" });
 console.log(copyOfPerson);

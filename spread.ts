@@ -5,6 +5,6 @@ let person5 = {
     twitter: "@tom"
 };
 
-let copyOfPerson = {...person, gender: "Male"};
+let copyOfPerson = {...person5, gender: "Male"};
 
 console.log(copyOfPerson);
