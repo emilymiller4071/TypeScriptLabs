@@ -4,7 +4,7 @@ function greeter(name: string){
 
 greeter("Emily");
 
-import { myFunction, myObject, myPrimitive, MyClass } from "./my-module";
+import { myFunction, myObject, myPrimitive, MyClass } from "./my-modules/my-module";
 
 console.log(myFunction());
 
@@ -16,5 +16,5 @@ console.log(myPrimitive);
 let myClass = new MyClass();
 console.log(myClass.myClassMethod());
 
-import{myPrivateFunction} from "./my-module";
+import{myPrivateFunction} from "./my-modules/my-module";
 // 'myPrivateFunction' is declared but its value is never read.ts(6133)
