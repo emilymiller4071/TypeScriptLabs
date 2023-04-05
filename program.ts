@@ -3,3 +3,6 @@ function greeter(name: string){
 }
 
 greeter("Emily");
+
+import { myFunction } from "./my-module";
+console.log(myFunction());
