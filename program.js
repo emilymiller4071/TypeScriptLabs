@@ -4,7 +4,7 @@ function greeter(name) {
     console.log("Hi " + name);
 }
 greeter("Emily");
-var my_module_1 = require("./my-module");
+var my_module_1 = require("./my-modules/my-module");
 console.log(my_module_1.myFunction());
 console.log(my_module_1.myObject.name);
 console.log(my_module_1.myObject.myMethod());
