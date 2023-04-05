@@ -15,3 +15,6 @@ console.log(myPrimitive);
 
 let myClass = new MyClass();
 console.log(myClass.myClassMethod());
+
+import{myPrivateFunction} from "./my-module";
+// 'myPrivateFunction' is declared but its value is never read.ts(6133)
