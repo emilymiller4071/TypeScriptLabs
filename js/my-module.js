@@ -8,7 +8,7 @@ exports.myFunction = myFunction;
 function myPrivateFunction() {
     return "myPrivateFunction was run.";
 }
-var myObject = {
+let myObject = {
     name: "I can access myObject's name",
     myMethod: function () {
         return "myMethod on myObject is running.";
@@ -16,12 +16,9 @@ var myObject = {
 };
 exports.myObject = myObject;
 exports.myPrimitive = 55;
-var MyClass = /** @class */ (function () {
-    function MyClass() {
-    }
-    MyClass.prototype.myClassMethod = function () {
+class MyClass {
+    myClassMethod() {
         return "myClassMethod on myClass is running.";
-    };
-    return MyClass;
-}());
+    }
+}
 exports.MyClass = MyClass;

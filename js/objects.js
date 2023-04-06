@@ -1,5 +1,5 @@
 "use strict";
-var person6 = {
+let person6 = {
     first: "Thomas",
     last: "Edison",
     age: 5,
@@ -9,6 +9,6 @@ var person6 = {
 // console.log(first);
 // console.log(last);
 // Assignment is left to right with an object literal
-var firstname = person6.first, lastName = person6.last;
+let { first: firstname, last: lastName } = person6;
 console.log(firstname);
 console.log(lastName);
